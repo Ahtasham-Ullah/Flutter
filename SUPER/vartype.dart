@@ -1,6 +1,7 @@
 void main(){
-  int vartypes = 25;
+  dynamic vartypes = "25.00";
   String name = "pakistan";
-  print(vartypes.isOdd);
+  //print(vartypes.isOdd);
   print(name.length);
+  print(vartypes.runtimeType);
 }
